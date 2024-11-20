@@ -1,12 +1,12 @@
 <!--
 Requirements
-[  ] Google Font OR Uploaded Font
-[  ] font-size OR font-style 
-[  ] Five CSS Rules
-[  ] Three Images
+[ x ] Google Font OR Uploaded Font
+[ x ] font-size OR font-style 
+[  x] Five CSS Rules
+[ x ] Three Images
 
 Select ONE Additional Feature to Add  
-[ no ] Feature 1 - Include a Static Background Image
+[ x ] Feature 1 - Include a Static Background Image
 [ no ] Feature 2 - Use a unique border-radius
 [ no ] Feature 3 - Use width and margin CSS Properties
 [ no ] Feature 4 - Include at least one more additional HTML page
@@ -14,17 +14,83 @@ Select ONE Additional Feature to Add
 
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Unit 2 Project</title>
+    <style>
+      p {
+        color: purple;
+        font-family: Arial;
+        font-size: 20px;
+      }
+      h2 {
+        color: purple;
+      }
+      .now {
+        color: green;
+        font-family: Gokhan;
+        font-size: 40px;
+      }
+      .moreinfo {
+        color: dodgerblue;
+      }
+      h1,
+      p,
+      h2 {
+        text-align: center;
+      }
 
-<head>
-  <title>Unit 4 Project</title>
-  <meta charset="utf-8">
-  <style>
-
-  </style>
-</head>
-<body>
-
- 
-
-</body>
+      body {
+        background-image: url("https://t4.ftcdn.net/jpg/03/85/72/67/360_F_385726776_2KgzDmzFHanqlx9oPKbQusB9p0GqPCLH.jpg");
+      }
+      @font-face {
+        font-family: Gokhan;
+        src: url("https://cdn.glitch.global/72329aaa-9f12-41e0-9a00-4a900ad87d31/Gokhan.ttf?v=1731951181902");
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="font-family: Gokhan">My Cat Banana!</h1>
+    <h2 style="font-family: Gokhan">Her as a kitten:</h2>
+    <p>
+      <strong
+        >banana was around 3 months old here, I had just adopted her and this
+        was her first night asleep in her new home along with her twin sister
+        honey :3</strong
+      >
+    </p>
+    <img
+      height="400"
+      src="https://cdn.glitch.global/72329aaa-9f12-41e0-9a00-4a900ad87d31/IMG_4920.jpg?v=1732037251191"
+    />
+    <h2 style="font-family: Gokhan">What kind of cat is she?</h2>
+    <p>
+      <strong
+        >banana is a scottish fold munchkin which is why she is so short but
+        long, kinda built like a weiner dog. Here's a silly picture of her from
+        like around 2023:</strong
+      >
+    </p>
+    <img
+      height="400"
+      src="https://cdn.glitch.global/72329aaa-9f12-41e0-9a00-4a900ad87d31/IMG_7573.jpg?v=1732037382868"
+    />
+    <h2 style="font-family: Gokhan">What does she look like now?</h2>
+    <p>
+      <strong>in this picture she is chilling in her favorite spot on her cat tree, she
+      just got a surgery so she has a little flower collar on :3</strong>
+    </p>
+    <p class="now">
+      <strong>Here is how she looks now!</strong>
+    </p>
+    <p class="moreinfo"><strong>
+      she is turning 3 years old this coming may and I'm super excited to
+      celebrate :3, as for honey she is with my aunt currently since she has
+      some health issues :(</strong>
+    </p>
+    <img
+      height="400"
+      src="https://cdn.glitch.global/72329aaa-9f12-41e0-9a00-4a900ad87d31/IMG_9649.jpg?v=1732037386425"
+    />
+  </body>
 </html>
